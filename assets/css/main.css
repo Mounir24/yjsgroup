@@ -135,6 +135,21 @@ li, li:before, li:after {
     top: 9px;
 }
 
+.l-body {
+    position: relative;
+}
+
+.l-body .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    z-index: 999;
+}
 
 /*--- GOOGLE TRANSLATE API SECTION STYLE  ---*/
 
