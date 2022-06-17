@@ -135,6 +135,28 @@ li, li:before, li:after {
     top: 9px;
 }
 
+.l-body {
+    position: relative;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #FFF;
+    z-index: 9999;
+    }
 
 /*--- GOOGLE TRANSLATE API SECTION STYLE  ---*/
 
@@ -618,7 +640,7 @@ mark,
     height: auto;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .img-thumbnail {
@@ -12503,7 +12525,7 @@ a.text-dark:focus {
     padding-left: 57px;
     padding-bottom: 10px;
     max-width: 585px;
-    height: 146px;
+    height: 155px;
     margin-bottom: 55px;
 }
 
@@ -29564,6 +29586,7 @@ nav.navbar.navbar-expand-lg {
 .contact-us-hah.logo-f {
     position: relative;
     left: -15px;
+    width: 350px;
 }
 
 @media (max-width: 991px) {
@@ -33162,9 +33185,4 @@ body {
 .button-d-none .btn-primary-ctm:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-}
-
-.list-my-technology img {
-    /*-webkit-filter: brightness(0) invert(1);*/
-    /*filter: brightness(0) invert(1);*/
 }

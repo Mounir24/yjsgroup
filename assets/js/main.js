@@ -1,5 +1,8 @@
-// START SLICK SLIDER
-
+// loader Animation
+document.addEventListener('DOMContentLoaded', () => {
+    const loader = document.getElementById('loader-anim');
+    loader.style.display = "none";
+})
 
 
 
