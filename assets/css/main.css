@@ -139,7 +139,7 @@ li, li:before, li:after {
     position: relative;
 }
 
-.loader {
+.l-body .loader {
     position: fixed;
     top: 0;
     left: 0;
